@@ -1,0 +1,3 @@
+# Project exclude paths
+/album-order-service/target/
+/SpringBootEcom/target/

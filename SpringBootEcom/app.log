@@ -1,0 +1,24 @@
+2023-05-27T19:56:02.245+01:00  INFO 16932 --- [main] c.example.springbootecom.WebLayerTests   : Starting WebLayerTests using Java 17.0.6 with PID 16932 (started by leste in C:\Users\leste\IdeaProjects\SpringBootEcomAppnMultiModule\SpringBootEcom)
+2023-05-27T19:56:02.249+01:00 DEBUG 16932 --- [main] c.example.springbootecom.WebLayerTests   : Running with Spring Boot v3.1.0, Spring v6.0.9
+2023-05-27T19:56:02.252+01:00  INFO 16932 --- [main] c.example.springbootecom.WebLayerTests   : No active profile set, falling back to 1 default profile: "default"
+2023-05-27T19:56:06.584+01:00  INFO 16932 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-05-27T19:56:06.586+01:00  INFO 16932 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-05-27T19:56:06.590+01:00  INFO 16932 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 4 ms
+2023-05-27T19:56:06.634+01:00  INFO 16932 --- [main] c.example.springbootecom.WebLayerTests   : Started WebLayerTests in 5.595 seconds (process running for 8.274)
+2023-05-27T19:56:07.180+01:00  INFO 16932 --- [main] c.e.s.controller.AlbumController         : AlbumController:: saveAlbumById : AlbumDTORequest(albumTitle=Abbey Road, artist=The Beatles, releaseDate=1966-10-07, price=19.99, albumGenre=Rock)
+2023-05-27T19:56:07.510+01:00  INFO 16932 --- [main] c.e.s.controller.AlbumController         : AlbumController:: findAlbumById called 2
+2023-05-27T19:56:07.563+01:00  INFO 16932 --- [main] c.e.s.controller.AlbumController         : AlbumController:: deleteAlbumById called...2
+2023-05-27T19:56:07.586+01:00  INFO 16932 --- [main] c.e.s.controller.AlbumController         : AlbumController:: saveAlbumById : AlbumDTORequest(albumTitle=Abbey Road, artist=The Beatles, releaseDate=1966-10-07, price=19.99, albumGenre=Rock)
+2023-05-27T19:56:07.603+01:00  INFO 16932 --- [main] c.e.s.controller.AlbumController         : AlbumController:: findAllAlbums called...
+2023-05-27T19:58:43.403+01:00  INFO 16156 --- [main] c.example.springbootecom.WebLayerTests   : Starting WebLayerTests using Java 17.0.6 with PID 16156 (started by leste in C:\Users\leste\IdeaProjects\SpringBootEcomAppnMultiModule\SpringBootEcom)
+2023-05-27T19:58:43.405+01:00 DEBUG 16156 --- [main] c.example.springbootecom.WebLayerTests   : Running with Spring Boot v3.1.0, Spring v6.0.9
+2023-05-27T19:58:43.406+01:00  INFO 16156 --- [main] c.example.springbootecom.WebLayerTests   : No active profile set, falling back to 1 default profile: "default"
+2023-05-27T19:58:47.847+01:00  INFO 16156 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-05-27T19:58:47.850+01:00  INFO 16156 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-05-27T19:58:47.853+01:00  INFO 16156 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2023-05-27T19:58:47.898+01:00  INFO 16156 --- [main] c.example.springbootecom.WebLayerTests   : Started WebLayerTests in 5.291 seconds (process running for 7.52)
+2023-05-27T19:58:48.755+01:00  INFO 16156 --- [main] c.e.s.controller.AlbumController         : AlbumController:: saveAlbumById : AlbumDTORequest(albumTitle=Abbey Road, artist=The Beatles, releaseDate=1966-10-07, price=19.99, albumGenre=Rock)
+2023-05-27T19:58:49.028+01:00  INFO 16156 --- [main] c.e.s.controller.AlbumController         : AlbumController:: findAlbumById called 2
+2023-05-27T19:58:49.061+01:00  INFO 16156 --- [main] c.e.s.controller.AlbumController         : AlbumController:: deleteAlbumById called...2
+2023-05-27T19:58:49.122+01:00  INFO 16156 --- [main] c.e.s.controller.AlbumController         : AlbumController:: saveAlbumById : AlbumDTORequest(albumTitle=Abbey Road, artist=The Beatles, releaseDate=1966-10-07, price=19.99, albumGenre=Rock)
+2023-05-27T19:58:49.136+01:00  INFO 16156 --- [main] c.e.s.controller.AlbumController         : AlbumController:: findAllAlbums called...
