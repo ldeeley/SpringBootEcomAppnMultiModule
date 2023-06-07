@@ -85,6 +85,10 @@ for JSON
 #### Actuator
 
 
+* Standard endpoints
+* Custom actuator endpoint
+* 
+
 #### Maven Multi-Module
 
 Setup the project as Maven Multi-Module (Inheritance)
@@ -137,7 +141,7 @@ such as Lombok, Actuator for instance
   </plugins>
 </build>
 ```
-For the child modules, there parent should be the SpringBootEcomAppnMultiModule so each module will have the parent in their POM setup as
+For the child modules, their parent should be the SpringBootEcomAppnMultiModule so each module will have the parent in their POM setup as
 
 ```xml
 <parent>
@@ -146,3 +150,6 @@ For the child modules, there parent should be the SpringBootEcomAppnMultiModule 
     <version>1.0-SNAPSHOT</version>
 </parent>
 ```
+
+#### Spring Boot Email Integration
+

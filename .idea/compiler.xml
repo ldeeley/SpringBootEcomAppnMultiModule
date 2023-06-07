@@ -7,8 +7,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="spring-data-REST" />
         <module name="SpringBootEcom" />
         <module name="album-order-service" />
+        <module name="springboot-scheduler" />
+        <module name="springboot-mongodb" />
       </profile>
     </annotationProcessing>
   </component>
@@ -16,6 +19,9 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="SpringBootEcom" options="-parameters" />
       <module name="album-order-service" options="-parameters" />
+      <module name="spring-data-REST" options="-parameters" />
+      <module name="springboot-mongodb" options="-parameters" />
+      <module name="springboot-scheduler" options="-parameters" />
     </option>
   </component>
 </project>
