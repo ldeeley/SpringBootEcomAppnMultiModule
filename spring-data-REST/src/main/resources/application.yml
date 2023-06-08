@@ -3,7 +3,7 @@ spring:
     url: jdbc:mysql://localhost:3306/javatechie
     driverClassName: com.mysql.cj.jdbc.Driver
     username: root
-    password: DivSQLorce2014#
+    password: ENC(2kE0igaFJz+PwTmAMErhcX4flCjqJopfIbaAbiOf2kkN7autVRe0A72WwhoCukuU)
   jpa:
     showSql: true
     hibernate:

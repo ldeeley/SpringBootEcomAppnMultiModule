@@ -81,7 +81,9 @@ public class AlbumService {
     public AlbumDTOResponse updateAlbum(Integer albumId, AlbumDTORequest albumDTORequest){
         AlbumEntity albumEntity;
         try {
-            albumEntity = albumRepository.save(AppUtils.mapAlbumDTORequestToAlbumEntity(albumDTORequest));
+            albumEntity=AppUtils.mapAlbumDTORequestToAlbumEntity(albumDTORequest);
+            albumEntity.setAlbumID(albumId);
+            albumRepository.save(albumEntity);
             return AppUtils.mapAlbumEntityToAlbumDTOResponse(albumEntity);
         } catch (Exception e)
         {
